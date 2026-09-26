@@ -1,6 +1,6 @@
 # AMZN 3m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-404_619_rows-blue)](https://getdata.finance/datasets/amzn) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/amzn)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-405_009_rows-blue)](https://getdata.finance/datasets/amzn) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/amzn)
 
 ### -> [**Download the full AMZN dataset on getdata.finance**](https://getdata.finance/datasets/amzn)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 3m OHLCV** for **Amazon** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/amzn) · **404,619** `3m` rows in the full archive
+- **Free evaluation sample** on GitHub (`3m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/amzn) · **405,009** `3m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3m` sample updated in sync
 
-> **Sample on GitHub** · `AMZN_3m.csv` (16,510 rows, `2026-03-23` -> `2026-09-22`, 974.16 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amzn)** — **404,619** `3m` rows (full `1m`: 636,515), **11 timeframes**, `2011-05-09` -> `2026-09-22`.
+> **Sample on GitHub** · `AMZN_3m.csv` (16,510 rows, `2026-03-26` -> `2026-09-25`, 964.28 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amzn)** — **405,009** `3m` rows (full `1m`: 636,515), **11 timeframes**, `2011-05-09` -> `2026-09-25`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Amazon · US stocks | Amazon · US stocks |
 | Timeframes | `3m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 3m rows | 16,510 | **404,619** |
-| Size | 974.16 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amzn) |
-| Period | `2026-03-23` -> `2026-09-22` | `2011-05-09` -> `2026-09-22` |
+| 3m rows | 16,510 | **405,009** |
+| Size | 964.28 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amzn) |
+| Period | `2026-03-26` -> `2026-09-25` | `2011-05-09` -> `2026-09-25` |
 | File | `AMZN_3m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/amzn) |
 | Coverage report | — | [AMZN coverage](https://getdata.finance/coverage/amzn) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`AMZN_3m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-23T13:30:00+00:00 | 209.85 | 215.48 | 209.85 | 214.1 | 1489 |
-| 2026-03-23T13:33:00+00:00 | 214.1 | 215.28 | 214.02 | 214.99 | 1548 |
-| 2026-03-23T13:36:00+00:00 | 214.99 | 215.85 | 214.81 | 215.7 | 2129 |
-| 2026-03-23T13:39:00+00:00 | 215.7 | 216.2 | 215.19 | 215.52 | 1934 |
-| 2026-03-23T13:42:00+00:00 | 215.52 | 216.32 | 215.39 | 215.4 | 2412 |
+| 2026-03-26T13:30:00+00:00 | 216.22 | 216.22 | 212.84 | 212.91 | 579 |
+| 2026-03-26T13:33:00+00:00 | 212.91 | 213.18 | 212.76 | 212.78 | 751 |
+| 2026-03-26T13:36:00+00:00 | 212.78 | 213.34 | 212.7 | 212.78 | 843 |
+| 2026-03-26T13:39:00+00:00 | 212.78 | 213.16 | 212.3 | 213.02 | 1132 |
+| 2026-03-26T13:42:00+00:00 | 213.02 | 213.4 | 212.92 | 213.4 | 1057 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-22T19:45:00+00:00 | 255.84 | 255.94 | 255.77 | 255.78 | 321 |
-| 2026-09-22T19:48:00+00:00 | 255.78 | 255.92 | 255.13 | 255.24 | 354 |
-| 2026-09-22T19:51:00+00:00 | 255.24 | 255.41 | 254.9 | 254.9 | 416 |
-| 2026-09-22T19:54:00+00:00 | 254.9 | 255.63 | 254.83 | 255.12 | 575 |
-| 2026-09-22T19:57:00+00:00 | 255.12 | 255.12 | 254.65 | 254.85 | 1002 |
+| 2026-09-25T19:45:00+00:00 | 250.18 | 250.63 | 250.18 | 250.54 | 404 |
+| 2026-09-25T19:48:00+00:00 | 250.54 | 250.66 | 250.28 | 250.54 | 353 |
+| 2026-09-25T19:51:00+00:00 | 250.54 | 250.57 | 250.41 | 250.48 | 262 |
+| 2026-09-25T19:54:00+00:00 | 250.48 | 250.57 | 249.22 | 249.44 | 507 |
+| 2026-09-25T19:57:00+00:00 | 249.44 | 249.72 | 249.32 | 249.61 | 548 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **AMZN** archive on **[getdata.finance](https://getdata.finance/datasets/amzn)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **404,619** rows at `3m`, plus all other timeframes in the same ZIP.
+The complete **AMZN** archive on **[getdata.finance](https://getdata.finance/datasets/amzn)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **405,009** rows at `3m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AMZN dataset on getdata.finance](https://getdata.finance/datasets/amzn)**
 
